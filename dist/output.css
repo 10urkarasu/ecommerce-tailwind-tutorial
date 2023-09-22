@@ -577,6 +577,11 @@ video {
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
+.bg-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 103 138 / var(--tw-bg-opacity));
+}
+
 .font-poppins{
   font-family: 'Poppins', sans-serif;
 }

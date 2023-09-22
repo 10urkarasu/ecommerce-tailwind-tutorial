@@ -18,6 +18,9 @@ module.exports = {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
         roboto: "'Roboto', sans-serif"
+      },
+      colors:{
+        'primary':'#A2678A'
       }
     },
   },

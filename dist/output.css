@@ -859,14 +859,6 @@ h1,h2,h3,h4,h5,h6{
   transition-duration: 150ms;
 }
 
-.duration-1000{
-  transition-duration: 1000ms;
-}
-
-.duration-100{
-  transition-duration: 100ms;
-}
-
 .duration-300{
   transition-duration: 300ms;
 }

@@ -588,6 +588,10 @@ h1,h2,h3,h4,h5,h6{
   position: relative;
 }
 
+.inset-0{
+  inset: 0px;
+}
+
 .-right-3{
   right: -0.75rem;
 }
@@ -635,6 +639,10 @@ h1,h2,h3,h4,h5,h6{
 
 .mt-12{
   margin-top: 3rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .flex{
@@ -709,6 +717,10 @@ h1,h2,h3,h4,h5,h6{
   gap: 1.5rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -734,6 +746,10 @@ h1,h2,h3,h4,h5,h6{
 .divide-gray-300 > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-divide-opacity));
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .rounded-full{
@@ -786,12 +802,25 @@ h1,h2,h3,h4,h5,h6{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-40{
+  --tw-bg-opacity: 0.4;
+}
+
 .bg-cover{
   background-size: cover;
 }
 
 .bg-center{
   background-position: center;
+}
+
+.bg-bottom{
+  background-position: bottom;
 }
 
 .bg-no-repeat{
@@ -855,6 +884,10 @@ h1,h2,h3,h4,h5,h6{
   text-align: center;
 }
 
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -880,8 +913,22 @@ h1,h2,h3,h4,h5,h6{
   line-height: 1rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-medium{
   font-weight: 500;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
 
 .capitalize{
@@ -981,6 +1028,10 @@ h1,h2,h3,h4,h5,h6{
 
 .group:hover .group-hover\:visible{
   visibility: visible;
+}
+
+.group:hover .group-hover\:bg-opacity-50{
+  --tw-bg-opacity: 0.5;
 }
 
 .group:hover .group-hover\:opacity-100{
